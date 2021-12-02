@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: node
-        image: josephhodes.azurecr.io/hecc:3
+        image: josephhodes.azurecr.io/hecc:latest
         ports:
         - containerPort: 8000
 ---
